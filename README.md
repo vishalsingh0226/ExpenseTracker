@@ -5,33 +5,46 @@ This application helps users manage daily income and expenses efficiently with i
 
 ---
 
+## 📌 Project Overview
+
+Expense Tracker is a smart financial management application that allows users to record their income and expenses in different categories.  
+The app provides real-time balance calculation, transaction history, and graphical analysis using Pie Charts for better expense tracking.
+
+---
+
 ## 📱 Features
 
 ### 🏠 Dashboard / Main Page
 - Interactive Pie Chart for expense analysis
 - Displays category-wise expense percentage
-- Shows total expense/income by category
-- Simple and user-friendly interface
+- Shows total income, expense, and balance
+- Clean and user-friendly UI
 
 ### 💸 Expense Management
 - Add daily expenses
 - Select category and date
-- Store data locally using SQLite Database
-- Automatically updates pie chart analytics
+- Add notes for transactions
+- Automatically updates expense analytics
 
 ### 💵 Income Management
 - Add income sources and amount
 - Maintain complete balance records
 - Easy data insertion interface
 
-### 🔍 Search Functionality
+### 🔍 Search & Filter Functionality
 - Search expenses by category
+- Filter records by Month, Year, or Day
 - View complete transaction history
-- Delete records instantly
 
 ### 📊 Data Visualization
 - Pie Chart integration using MPAndroidChart
 - Real-time financial tracking
+- Expense percentage visualization
+
+### 🗂️ Balance Sheet
+- Displays all transaction history
+- Shows income and expenses separately
+- Maintains accurate balance records
 
 ---
 
@@ -56,50 +69,37 @@ This application helps users manage daily income and expenses efficiently with i
 - Main Dashboard
 - Expense Page
 - Income Page
-- Search Page
+- Balance Sheet
+- Search & Filter Page
 - Database Helper
 
 ---
 
 ## 📸 Screenshots
 
-### Splash Screen
-![Splash](app/src/main/res/drawable/splash.png)
+### Dashboard Screen
+![Dashboard](screenshots/dashboard.png)
 
-### Dashboard
-![Dashboard](app/src/main/res/drawable/mainpage_without_data.png)
+### Add Income Screen
+![Income](screenshots/income.png)
 
-### Expense Page
-![Expense](app/src/main/res/drawable/expense_page.png)
+### Balance Updated Screen
+![Balance](screenshots/balance.png)
 
-### Category Selection
-![Category](app/src/main/res/drawable/expense_page_cat.png)
+### Expense Analysis Chart
+![Chart](screenshots/chart.png)
+
+### Balance Sheet
+![Balance Sheet](screenshots/balancesheet.png)
+
+### Search & Filter Menu
+![Search](screenshots/search.png)
 
 ---
 
 ## ⚙️ Installation
 
 1. Clone the repository
-2. Open project in Android Studio
-3. Sync Gradle files
-4. Run the app on Emulator or Android Device
 
----
-
-## 🚀 Future Improvements
-
-- Firebase Authentication
-- Cloud Data Backup
-- Monthly Expense Reports
-- Dark Mode
-- Budget Notifications
-
----
-
-## 👨‍💻 Developer
-
-Vishal Kumar Singh
-
-- Java Developer
-- Android App Developer
-- Passionate about Mobile Application Development
+```bash
+git clone https://github.com/your-username/Expense-Tracker-App.git
